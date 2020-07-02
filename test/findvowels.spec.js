@@ -13,11 +13,11 @@ describe('findVowels function', () => {
   it('should return "String is empty" when string is empty', () => {
     expect(findVowels("")).to.equal('String is empty');
   });
-  it('should return "String is not contains vowels" when string not contains vowels', () => {
-    expect(findVowels('drtnmnn')).to.equal('String is not contains vowels');
+  it('should return "String does not contain vowels" when string does not contain vowels', () => {
+    expect(findVowels('drtnmnn')).to.equal('String does not contain vowels');
   });
-  it('should return "String is not contains vowels" when string not contains vowels', () => {
-    expect(findVowels('TRDDDFTRKKLLLPNM')).to.equal('String is not contains vowels');
+  it('should return "String does not contain vowels" when string does not contain vowels', () => {
+    expect(findVowels('TRDDDFTRKKLLLPNM')).to.equal('String does not contain vowels');
   });
   it('should return number of vowels', () => {
     expect(findVowels('drtaaein')).to.equal(4);
